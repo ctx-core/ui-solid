@@ -1,7 +1,10 @@
-import { use_Context_ctx } from '../Context_ctx/index.js'
-import { be_ } from '@ctx-core/object'
-import { createSignal, onCleanup, Show } from 'solid-js'
-export function Singleton_(C, proto_key_a__, label) {
+import { type Be, be_ } from '@ctx-core/object'
+import { type Component, createSignal, JSX, onCleanup, type ParentProps, Show } from 'solid-js'
+import type { signal_T } from './_types'
+import { use_Context_ctx } from './Context_ctx.js'
+export function Singleton_<Props = ParentProps<{ label?:string }>>(
+	C:Component<Props>, proto_key_a__?:Be<signal_T<any>>, label?:string
+) {
 	if (!proto_key_a__) proto_key_a__ = be_(()=>createSignal([]))
 	return $p=>{
 		const proto_key_a_ = proto_key_a__(use_Context_ctx())
@@ -11,7 +14,7 @@ export function Singleton_(C, proto_key_a__, label) {
 			</Singleton>)
 	}
 }
-export function Singleton($p) {
+export function Singleton<Key = ParentProps>($p:ParentProps<Singleton_props_T<Key>>):JSX.Element {
 	const key = $p.key
 	const [proto_key_a_, proto_key_a__set] = $p.proto_key_a_
 	const proto_key_a = proto_key_a_()
@@ -25,4 +28,9 @@ export function Singleton($p) {
 		})
 	})
 	return <Show when={proto_key_a_()[0] === key}>{$p.children}</Show>
+}
+export interface Singleton_props_T<Key> {
+	key:Key
+	proto_key_a_:signal_T<Key[]>
+	label?:string
 }
