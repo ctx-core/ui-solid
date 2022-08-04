@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 2.0.0
+
+### Major Changes
+
+- \*.ts files only: meant for vite or tsx
+
 ## 1.1.3
 
 ### Patch Changes
