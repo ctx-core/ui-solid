@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 1.1.1
+
+### Patch Changes
+
+- fix: use vite to build: - jsx files
+
 ## 1.1.0
 
 ### Minor Changes

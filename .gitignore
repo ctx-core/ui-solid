@@ -6,4 +6,3 @@ types
 tsconfig.tsbuildinfo
 *.tgz
 .idea
-lib
