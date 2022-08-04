@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/ui-solid",
-	"version": "1.1.2",
+	"version": "1.1.3",
 	"description": "ctx-core Solidjs components",
 	"keywords": [
 		"ctx-core"
@@ -17,7 +17,7 @@
 	"author": "Brian Takita",
 	"type": "module",
 	"module": "./lib/index.js",
-	"types": "./lib/index.d.ts",
+	"types": "./src/index.ts",
 	"svelte": "./lib/index.js",
 	"scripts": {
 		"build": "npm-run-all --parallel build:vite build:types",
@@ -25,7 +25,7 @@
 		"build:vite": "vite build -c vite.config.ts",
 		"clean": "rimraf lib",
 		"exec": "$@",
-		"prepublishOnly": "npm run clean && npm run build && npm run test",
+		"prepublishOnly": "npm run clean && npm run build && npm run build && npm run test",
 		"test": "pnpm test-unit",
 		"test-unit": "tsx node_modules/uvu/bin.js . '\\.test\\.(ts|js)$'",
 		"test-unit-coverage": "c8 pnpm test-unit"

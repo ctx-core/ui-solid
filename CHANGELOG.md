@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 1.1.3
+
+### Patch Changes
+
+- fix: build
+
 ## 1.1.2
 
 ### Patch Changes
