@@ -1,0 +1,8 @@
+node_modules
+COMMIT_EDITMSG
+~/.npm
+lib
+types
+tsconfig.tsbuildinfo
+*.tgz
+.idea
