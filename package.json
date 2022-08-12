@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/ui-solid",
-	"version": "2.0.1",
+	"version": "2.0.2",
 	"description": "ctx-core Solidjs components",
 	"keywords": [
 		"ctx-core"
@@ -43,7 +43,7 @@
 		"tsx": "^3.8.2",
 		"typescript": "next",
 		"uvu": "^0.5.6",
-		"vite": "^3.0.5",
+		"vite": "^3.0.6",
 		"vite-plugin-solid": "^2.3.0"
 	},
 	"publishConfig": {
