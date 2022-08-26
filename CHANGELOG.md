@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 2.0.8
+
+### Patch Changes
+
+- GlobalStyle: fix: reference to Style
+
 ## 2.0.7
 
 ### Patch Changes
