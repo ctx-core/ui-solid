@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 2.0.12
+
+### Patch Changes
+
+- ∋ solid-start: next
+
 ## 2.0.11
 
 ### Patch Changes
