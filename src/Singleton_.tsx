@@ -17,7 +17,7 @@ export function Singleton_<Props = ParentProps<{ label?:string }>>(
 export function Singleton<Key = ParentProps>($p:ParentProps<Singleton_props_T<Key>>):JSX.Element {
 	const key = $p.key
 	const [proto_key_a_, proto_key_a__set] = $p.proto_key_a_
-	const proto_key_a = proto_key_a_()
+	const proto_key_a:Key[] = proto_key_a_()
 	proto_key_a.push(key)
 	proto_key_a__set(proto_key_a.slice())
 	onCleanup(()=>{
