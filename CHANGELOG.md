@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 2.0.16
+
+### Patch Changes
+
+- vite: fix: ambigious import error
+
 ## 2.0.15
 
 ### Patch Changes
