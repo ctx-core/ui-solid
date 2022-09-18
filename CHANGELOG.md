@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 2.1.3
+
+### Patch Changes
+
+- use_Context_ctx: fix: return type: Ctx
+
 ## 2.1.2
 
 ### Patch Changes
