@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/ui-solid",
-	"version": "2.1.0",
+	"version": "2.1.1",
 	"description": "ctx-core Solidjs components",
 	"keywords": [
 		"ctx-core"
@@ -16,9 +16,9 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"module": "src/index.js",
+	"module": "src/index.jsx",
 	"types": "src/index.d.ts",
-	"svelte": "src/index.js",
+	"svelte": "src/index.jsx",
 	"scripts": {
 		"build": ":",
 		"clean": ":",

@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 2.1.1
+
+### Patch Changes
+
+- fix: TypeError: Unknown file extension ".jsx": index.js=>index.jsx
+
 ## 2.1.0
 
 ### Minor Changes
