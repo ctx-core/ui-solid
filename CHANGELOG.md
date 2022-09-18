@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 2.0.18
+
+### Patch Changes
+
+- vite-plugin-solid: ^2.3.2 -> ^2.3.3
+
 ## 2.0.17
 
 ### Patch Changes
