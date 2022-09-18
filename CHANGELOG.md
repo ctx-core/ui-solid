@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 2.1.0
+
+### Minor Changes
+
+- .js + .jsx + .d.ts instead of .ts
+
 ## 2.0.18
 
 ### Patch Changes
