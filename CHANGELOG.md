@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 2.1.2
+
+### Patch Changes
+
+- fix: index.d.ts: export implementation in addition to types
+
 ## 2.1.1
 
 ### Patch Changes
