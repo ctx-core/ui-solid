@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 2.1.6
+
+### Patch Changes
+
+- publish
+
 ## 2.1.5
 
 ### Patch Changes
