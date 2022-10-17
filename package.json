@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/ui-solid",
-	"version": "2.1.13",
+	"version": "2.1.14",
 	"description": "ctx-core Solidjs components",
 	"keywords": [
 		"ctx-core"
@@ -30,7 +30,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/object": "^22.2.8",
-		"solid-js": "^1.5.7",
+		"solid-js": "^1.5.8",
 		"solid-start": "latest"
 	},
 	"devDependencies": {
