@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/ui-solid",
-	"version": "2.1.16",
+	"version": "2.1.17",
 	"description": "ctx-core Solidjs components",
 	"keywords": [
 		"ctx-core"
@@ -41,7 +41,7 @@
 	},
 	"peerDependencies": {
 		"vite": "^3.1.8",
-		"vite-plugin-solid": "^2.3.9"
+		"vite-plugin-solid": "^2.3.10"
 	},
 	"publishConfig": {
 		"access": "public",
