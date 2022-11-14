@@ -29,7 +29,7 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/object": "^22.3.0",
+		"@ctx-core/object": "^22.4.0",
 		"solid-js": "^1.6.2",
 		"solid-start": "latest"
 	},
