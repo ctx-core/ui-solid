@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 2.1.24
+
+### Patch Changes
+
+- vite: ^3.2.3 -> ^3.2.4
+
 ## 2.1.23
 
 ### Patch Changes
