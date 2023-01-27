@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 2.2.3
+
+### Patch Changes
+
+- ctx**Context: fix: export \* from './ctx**Context/index.js'
+
 ## 2.2.2
 
 ### Patch Changes
