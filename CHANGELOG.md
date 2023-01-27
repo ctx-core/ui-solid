@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 2.2.2
+
+### Patch Changes
+
+- Singleton\_: fix: reference to ../ctx\_\_Context/index.js
+
 ## 2.2.1
 
 ### Patch Changes

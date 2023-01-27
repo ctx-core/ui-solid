@@ -1,6 +1,6 @@
 import { be_ } from '@ctx-core/object'
 import { createSignal, onCleanup, Show } from 'solid-js'
-import { use_Context_ctx } from '../Context_ctx/index.js'
+import { use_Context_ctx } from '../ctx__Context/index.js'
 export function Singleton_(C, proto_key_a__, label) {
 	if (!proto_key_a__) proto_key_a__ = be_(()=>createSignal([]))
 	return $p=>{
