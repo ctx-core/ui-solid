@@ -1,5 +1,5 @@
 export { signal_T } from './_types'
-export { ctx__Context, ctx__Context__use } from './Context_ctx'
+export { ctx__Context, ctx__Context__use } from './ctx__Context'
 export { GlobalStyle, Style_props_T } from './GlobalStyle'
 export { signal__toggle_ } from './signal__toggle_'
 export { Singleton_, Singleton, Singleton_props_T } from './Singleton_'

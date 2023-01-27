@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 2.2.1
+
+### Patch Changes
+
+- directory: Context_ctx=>ctx\_\_Context
+
 ## 2.2.0
 
 ### Minor Changes
