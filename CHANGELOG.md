@@ -1,5 +1,13 @@
 # @ctx-core/ui-solid
 
+## 2.2.0
+
+### Minor Changes
+
+- ctx**Context**use aliased by use_Context_ctx
+
+  ctx\_\_Context aliased by Context_ctx
+
 ## 2.1.47
 
 ### Patch Changes

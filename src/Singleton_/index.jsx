@@ -4,7 +4,7 @@ import { use_Context_ctx } from '../Context_ctx/index.js'
 export function Singleton_(C, proto_key_a__, label) {
 	if (!proto_key_a__) proto_key_a__ = be_(()=>createSignal([]))
 	return $p=>{
-		const proto_key_a_ = proto_key_a__(use_Context_ctx())
+		const proto_key_a_ = proto_key_a__(ctx__Context__use())
 		return (
 			<Singleton key={$p} proto_key_a_={proto_key_a_} label={label}>
 				<C {...$p}/>
