@@ -1,5 +1,13 @@
 # @ctx-core/ui-solid
 
+## 2.2.5
+
+### Patch Changes
+
+- tsconfig.json: - importsNotUsedAsValues
+- Updated dependencies
+  - @ctx-core/object@24.1.1
+
 ## 2.2.4
 
 ### Patch Changes
