@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 2.3.1
+
+### Patch Changes
+
+- fix: imports to GlobalStyle,Singleton*,Style*
+
 ## 2.3.0
 
 ### Minor Changes
