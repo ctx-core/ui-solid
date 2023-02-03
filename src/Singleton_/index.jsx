@@ -1,15 +1,15 @@
 import { be_ } from '@ctx-core/object'
 import { createSignal, onCleanup, Show } from 'solid-js'
-import { use_Context_ctx } from '../ctx__Context/index.js'
+import { ctx__Context__use } from '../ctx__Context/index.js'
 export function Singleton_(C, proto_key_a__, label) {
 	if (!proto_key_a__) proto_key_a__ = be_(()=>createSignal([]))
-	return $p=>{
+	return ($p=>{
 		const proto_key_a_ = proto_key_a__(ctx__Context__use())
 		return (
 			<Singleton key={$p} proto_key_a_={proto_key_a_} label={label}>
-				<C {...$p}/>
+				<C label={$p.label}/>
 			</Singleton>)
-	}
+	})
 }
 export function Singleton($p) {
 	const key = $p.key

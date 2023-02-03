@@ -1,5 +1,15 @@
 # @ctx-core/ui-solid
 
+## 2.3.0
+
+### Minor Changes
+
+- - Style\_,minifycss
+
+### Patch Changes
+
+- Singleton\_: returns a Component
+
 ## 2.2.7
 
 ### Patch Changes
