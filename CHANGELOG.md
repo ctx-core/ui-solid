@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 2.3.2
+
+### Patch Changes
+
+- package.json: - peerDependencies,"solid-start": "^0.2.19"
+
 ## 2.3.1
 
 ### Patch Changes
