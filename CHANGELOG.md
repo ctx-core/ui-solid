@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 4.0.1
+
+### Patch Changes
+
+- ctx**Context: + globalThis[ctx**Context**sym]: use singleton instance of ctx**Context when library is loaded multiple times
+
 ## 4.0.0
 
 ### Major Changes

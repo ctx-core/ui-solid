@@ -9,9 +9,8 @@
 		"moduleResolution": "node",
 		"resolveJsonModule": true,
 		"rootDir": "src",
-		"outDir": "lib",
 		"declaration": true,
-		"declarationDir": "lib"
+		"declarationDir": "src"
 	},
   "include": ["src"],
 	"exclude": []
