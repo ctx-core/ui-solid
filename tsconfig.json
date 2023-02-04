@@ -4,7 +4,11 @@
     "jsxImportSource": "solid-js",
     "jsx": "preserve",
 		"allowJs": true,
-		"lib": ["dom", "ESNext"],
+		"lib": [
+			"dom",
+			"ESNext",
+			"webworker"
+		],
 		"module": "esnext",
 		"moduleResolution": "node",
 		"resolveJsonModule": true,

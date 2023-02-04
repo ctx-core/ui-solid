@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 4.1.0
+
+### Minor Changes
+
+- - FetchEvent_w_ctx_T,PageEvent_w_ctx_T,APIEvent_w_ctx_T,FetchEvent\_\_locals_T
+
 ## 4.0.1
 
 ### Patch Changes
