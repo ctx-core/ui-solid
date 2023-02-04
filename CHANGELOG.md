@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 3.0.0
+
+### Major Changes
+
+- - GlobalStyle: Style\_ uses Style from solid-start & innerHTML
+
 ## 2.3.2
 
 ### Patch Changes
