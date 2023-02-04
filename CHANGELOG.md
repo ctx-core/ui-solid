@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 4.0.0
+
+### Major Changes
+
+- Singleton*props_T: proto_key_a*=>proto_key_a\_\_signal
+
 ## 3.0.1
 
 ### Patch Changes
