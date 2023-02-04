@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 3.0.1
+
+### Patch Changes
+
+- reinstate GlobalStyle: ∈ Style\_
+
 ## 3.0.0
 
 ### Major Changes
