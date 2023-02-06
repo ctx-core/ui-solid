@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 5.1.0
+
+### Minor Changes
+
+- - params**ctx**memo*: creates a memo which returns params.ctx || ctx**Context**use() || ctx*()
+
 ## 5.0.3
 
 ### Patch Changes

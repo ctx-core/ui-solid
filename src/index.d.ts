@@ -1,5 +1,6 @@
 export * from './ctx__Context'
 export * from './minifycss'
+export * from './params__ctx__memo_'
 export * from './signal__toggle_'
 export * from './Singleton_'
 export * from './Style_'
