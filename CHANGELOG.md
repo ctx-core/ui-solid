@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 5.0.0
+
+### Major Changes
+
+- - signal_T,FetchEvent_w_ctx_T,PageEvent_w_ctx_T,APIEvent_w_ctx_T
+
 ## 4.1.0
 
 ### Minor Changes

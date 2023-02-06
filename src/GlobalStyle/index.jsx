@@ -1,5 +1,5 @@
 import { createEffect, createMemo, createSignal } from 'solid-js'
-import { Style } from 'solid-start'
+import { Style } from '@solidjs/meta'
 /** @typedef {import('solid-js').Accessor}Accessor */
 export const GlobalStyle = $p=>{
 	const [ref_, ref__set] = createSignal()
