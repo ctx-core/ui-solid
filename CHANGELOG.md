@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 5.0.2
+
+### Patch Changes
+
+- @ctx-core/object: ^24.1.3 -> ^24.1.4
+
 ## 5.0.1
 
 ### Patch Changes
