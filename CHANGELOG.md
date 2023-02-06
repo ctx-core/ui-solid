@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 5.0.3
+
+### Patch Changes
+
+- GlobalStyle: fix: usage in environments without MetaContext from @solidjs/meta
+
 ## 5.0.2
 
 ### Patch Changes

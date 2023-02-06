@@ -1,16 +1,25 @@
-import { createEffect, createMemo, createSignal } from 'solid-js'
-import { Style } from '@solidjs/meta'
+import { createEffect, createMemo, createSignal, Show, useContext } from 'solid-js'
+import { MetaContext, Style } from '@solidjs/meta'
 /** @typedef {import('solid-js').Accessor}Accessor */
 export const GlobalStyle = $p=>{
 	const [ref_, ref__set] = createSignal()
 	/** @type {Accessor<string>} */
 	const css_ = createMemo(()=>$p.css || $p.children)
-	createEffect(()=>{
-		const ref = ref_()
-		if (ref) ref.innerHTML = css_()
-	})
-	return <Style ref={$=>{
-		ref__set($)
-		if ($p.ref) $p.ref($)
-	}} data-label={$p.label ?? ''}>{css_()}</Style>
+	return (
+		<Show when={!!useContext(MetaContext)} fallback={()=><style innerHTML={css_()}/>}>
+			<MetaContextStyle/>
+		</Show>
+	)
+	function MetaContextStyle() {
+		createEffect(()=>{
+			const ref = ref_()
+			if (ref) ref.innerHTML = css_()
+		})
+		return (
+			<Style ref={$=>{
+				ref__set($)
+				if ($p.ref) $p.ref($)
+			}} data-label={$p.label ?? ''}>{css_()}</Style>
+		)
+	}
 }
