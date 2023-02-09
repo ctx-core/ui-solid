@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 6.0.0
+
+### Major Changes
+
+- - CloseDialogHandle,ModalDialog: moved to @ctx-core/dialog-ui-solid
+
 ## 5.3.2
 
 ### Patch Changes

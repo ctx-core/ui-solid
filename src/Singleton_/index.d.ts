@@ -1,6 +1,6 @@
 import type { Be } from '@ctx-core/object'
+import type { signal_T } from '@ctx-core/solid-js'
 import type { Component, JSX, ParentProps } from 'solid-js'
-import type { signal_T } from '../_types'
 export declare function Singleton_<
 	Props_T extends ParentProps<{ label?:string }> = ParentProps<{ label?:string }>
 >(
