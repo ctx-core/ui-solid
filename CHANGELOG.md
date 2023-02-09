@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 5.2.0
+
+### Minor Changes
+
+- - Matcha component
+
 ## 5.1.0
 
 ### Minor Changes
