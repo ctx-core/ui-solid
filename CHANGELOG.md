@@ -1,5 +1,14 @@
 # @ctx-core/ui-solid
 
+## 5.3.0
+
+### Minor Changes
+
+- Style*: css* factory function: + $p:Props_T
+- - CloseDialogHandle component
+- CloseDialogHandle component
+- CloseDialogHandle component
+
 ## 5.2.0
 
 ### Minor Changes

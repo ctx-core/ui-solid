@@ -1,3 +1,4 @@
+export * from './CloseDialogHandle'
 export * from './ctx__Context'
 export * from './Matcha'
 export * from './minifycss'

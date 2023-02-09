@@ -1,4 +1,4 @@
-import type { Component, ParentProps } from 'solid-js'
+import type { Component, VoidProps } from 'solid-js'
 export function Style_<
-	Props_T extends ParentProps<{ label?:string }> = ParentProps<{ label?:string }>
->(css_:()=>string):Component<Props_T>
+	Props_T extends VoidProps<{ label?:string }> = VoidProps<{ label?:string }>,
+>(css_:($p:Props_T)=>string):Component<Props_T>

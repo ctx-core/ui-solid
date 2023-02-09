@@ -5,8 +5,8 @@ export function Style_(css_) {
 	return Singleton_($p=>{
 		return <GlobalStyle label={$p?.label}>{
 			process.env.NODE_ENV === 'production'
-			? minifycss(css_())
-			: css_()
+			? minifycss(css_($p))
+			: css_($p)
 		}</GlobalStyle>
 	})
 }
