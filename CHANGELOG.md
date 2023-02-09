@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 5.3.2
+
+### Patch Changes
+
+- entry: GlobalStyle,GlobalStyle: fix export
+
 ## 5.3.1
 
 ### Patch Changes
