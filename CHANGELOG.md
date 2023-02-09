@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 5.3.1
+
+### Patch Changes
+
+- ModalDialog: fix jsdoc declaration
+
 ## 5.3.0
 
 ### Minor Changes

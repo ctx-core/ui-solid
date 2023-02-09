@@ -8,7 +8,6 @@ import { Style_ } from '../Style_'
  * @constructor
  */
 export function ModalDialog($_p) {
-	/** @type {ModalDialog__props_T} */
 	const $p = mergeProps({
 		class: '',
 		width: '50rem',
