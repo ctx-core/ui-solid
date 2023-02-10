@@ -1,6 +1,6 @@
 export * from './ctx__Context/index.js'
 export * from './GlobalStyle/index.jsx'
-export * from './Matcha/index.jsx'
+export * from './Matcha/index.js'
 export * from './minifycss/index.js'
 export * from './params__ctx__memo_/index.js'
 export * from './signal__toggle_/index.js'
