@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 6.0.3
+
+### Patch Changes
+
+- index.jsx=>index.js
+
 ## 6.0.2
 
 ### Patch Changes
