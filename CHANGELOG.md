@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 6.0.1
+
+### Patch Changes
+
+- GlobalStyle: fix: export
+
 ## 6.0.0
 
 ### Major Changes

@@ -1,5 +1,5 @@
 export * from './ctx__Context/index.js'
-export * from './GlobalStyle/index.js'
+export * from './GlobalStyle/index.jsx'
 export * from './Matcha/index.jsx'
 export * from './minifycss/index.js'
 export * from './params__ctx__memo_/index.js'
