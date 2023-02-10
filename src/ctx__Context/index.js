@@ -7,5 +7,5 @@ export function ctx__Context__use() {
 }
 export {
 	ctx__Context__use as use_Context_ctx,
-	ctx__Context as Context_ctx
+	ctx__Context as Context_ctx,
 }
