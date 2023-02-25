@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/ui-solid",
-	"version": "6.0.14",
+	"version": "6.0.15",
 	"description": "ctx-core Solidjs components",
 	"keywords": [
 		"ctx-core"
@@ -29,8 +29,8 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/object": "^25.2.1",
-		"@ctx-core/solid-js": "^1.2.12",
+		"@ctx-core/object": "^26.0.0",
+		"@ctx-core/solid-js": "^1.2.13",
 		"@solidjs/meta": "^0.28.2",
 		"solid-js": "^1.6.11"
 	},
