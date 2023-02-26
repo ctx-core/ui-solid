@@ -1,5 +1,13 @@
 # @ctx-core/ui-solid
 
+## 6.0.16
+
+### Patch Changes
+
+- import*meta_env*() instead of process.env
+- Updated dependencies
+  - @ctx-core/env@17.2.18
+
 ## 6.0.15
 
 ### Patch Changes
