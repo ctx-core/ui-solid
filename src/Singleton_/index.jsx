@@ -7,7 +7,7 @@ export function Singleton_(C, proto_key_a__signal_, label) {
 		const proto_key_a__signal = proto_key_a__signal_(ctx__Context__use())
 		return (
 			<Singleton key={$p} proto_key_a__signal={proto_key_a__signal} label={label}>
-				<C label={$p.label}/>
+				<C {...$p}/>
 			</Singleton>)
 	})
 }
