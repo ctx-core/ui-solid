@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 6.0.18
+
+### Patch Changes
+
+- Singleton*,Style*: fix: pass props to component
+
 ## 6.0.17
 
 ### Patch Changes
