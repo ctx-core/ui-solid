@@ -1,5 +1,13 @@
 # @ctx-core/ui-solid
 
+## 6.0.19
+
+### Patch Changes
+
+- @ctx-core/env: ^17.2.18 -> ^17.2.19
+- Updated dependencies
+  - @ctx-core/env@17.2.20
+
 ## 6.0.18
 
 ### Patch Changes
