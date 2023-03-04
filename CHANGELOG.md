@@ -1,5 +1,13 @@
 # @ctx-core/ui-solid
 
+## 6.0.25
+
+### Patch Changes
+
+- @ctx-core/object: ^27.1.1 -> ^27.1.2
+- @ctx-core/solid-js: ^1.2.16 -> ^1.2.17
+- @ctx-core/env: ^17.2.25 -> ^17.2.26
+
 ## 6.0.24
 
 ### Patch Changes
