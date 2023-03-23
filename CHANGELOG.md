@@ -1,5 +1,13 @@
 # @ctx-core/ui-solid
 
+## 6.0.44
+
+### Patch Changes
+
+- ∋ globalThis**prop**ensure
+- Updated dependencies
+  - @ctx-core/object@27.3.1
+
 ## 6.0.43
 
 ### Patch Changes

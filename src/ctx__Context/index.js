@@ -1,7 +1,8 @@
+import { globalThis__prop__ensure } from '@ctx-core/object'
 import { createContext, useContext } from 'solid-js'
-const ctx__Context__sym = Symbol.for('ctx__Context')
-if (!globalThis[ctx__Context__sym]) globalThis[ctx__Context__sym] = createContext()
-export const ctx__Context = globalThis[ctx__Context__sym]
+export const ctx__Context = globalThis__prop__ensure(
+	Symbol.for('ctx__Context'),
+	()=>createContext())
 export function ctx__Context__use() {
 	return useContext(ctx__Context)
 }
