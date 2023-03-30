@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 7.1.0
+
+### Minor Changes
+
+- Matcha: value type: fix: ()=>E
+
 ## 7.0.0
 
 ### Major Changes
