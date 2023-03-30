@@ -1,5 +1,13 @@
 # @ctx-core/ui-solid
 
+## 7.0.0
+
+### Major Changes
+
+- Matcha: type changes:
+
+  whenthen:[any, E][]
+
 ## 6.0.51
 
 ### Patch Changes
