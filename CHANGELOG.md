@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 7.1.4
+
+### Patch Changes
+
+- - jsdoc
+
 ## 7.1.3
 
 ### Patch Changes
