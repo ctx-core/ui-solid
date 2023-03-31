@@ -1,12 +1,21 @@
 import { createEffect, createMemo, createSignal, Show, useContext } from 'solid-js'
 import { MetaContext, Style } from '@solidjs/meta'
-/** @typedef {import('solid-js').Accessor}Accessor */
-export const GlobalStyle = $p=>{
+/** @typedef {import('solid-js').ParentProps}ParentProps */
+/** @typedef {import('./index.d.ts').Style_props_T}Style_props_T */
+/**
+ * @param {ParentProps<Style_props_T>}$p
+ * @returns {JSX.Element}
+ * @private
+ */
+export function GlobalStyle($p) {
 	const [ref_, ref__set] = createSignal()
 	/** @type {Accessor<string>} */
 	const css_ = createMemo(()=>$p.css || $p.children)
 	return (
-		<Show when={!!useContext(MetaContext)} fallback={()=><style innerHTML={css_()}/>}>
+		<Show
+			when={!!useContext(MetaContext)}
+			fallback={()=><style innerHTML={css_()}/>}
+		>
 			<MetaContextStyle/>
 		</Show>
 	)

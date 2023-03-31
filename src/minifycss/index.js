@@ -1,3 +1,7 @@
+/**
+ * @param {string}css
+ * @returns {string}
+ */
 export function minifycss(css) {
 	// Remove all comments, newlines and tabs
 	return css.replace(/\/\*(?:(?!\*\/)[\s\S])*\*\/|[\r\n\t]+/g, '')
