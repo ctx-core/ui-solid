@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 7.1.5
+
+### Patch Changes
+
+- @solidjs/meta: ^0.28.2 -> ^0.28.3
+
 ## 7.1.4
 
 ### Patch Changes
