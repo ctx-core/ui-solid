@@ -1,5 +1,27 @@
 # @ctx-core/ui-solid
 
+## 7.1.39
+
+### Patch Changes
+
+- @ctx-core/monorepo: ^20.3.1 -> ^20.3.2
+- @ctx-core/dev-tools: 8.1.111 -> 8.1.112
+- @ctx-core/function: ^21.17.16 -> ^21.17.17
+- @ctx-core/queue: ^7.5.18 -> ^7.5.19
+- @ctx-core/git-tools: ^7.0.61 -> ^7.0.62
+- @ctx-core/build: 1.0.299 -> 1.0.300
+- @ctx-core/ctx-core-package-tools: ^8.0.191 -> ^8.0.192
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/env@17.2.82
+  - @ctx-core/object@27.4.22
+  - @ctx-core/solid-js@1.2.61
+
 ## 7.1.38
 
 ### Patch Changes
