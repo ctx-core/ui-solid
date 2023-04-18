@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/ui-solid",
-	"version": "7.1.21",
+	"version": "7.1.33",
 	"description": "ctx-core Solidjs components",
 	"keywords": [
 		"ctx-core"
