@@ -29,8 +29,8 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/env": "^17.2.63",
-		"@ctx-core/object": "^27.4.4",
+		"@ctx-core/env": "^17.2.75",
+		"@ctx-core/object": "^27.4.16",
 		"@ctx-core/solid-js": "^1.2.43",
 		"@solidjs/meta": "^0.28.4",
 		"solid-js": "^1.7.3"
