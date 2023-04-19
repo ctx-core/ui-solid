@@ -1,5 +1,15 @@
 # @ctx-core/ui-solid
 
+## 7.1.40
+
+### Patch Changes
+
+- @ctx-core/monorepo: ^20.3.3 -> ^20.3.4
+- Updated dependencies
+  - @ctx-core/env@17.2.83
+  - @ctx-core/object@27.4.23
+  - @ctx-core/solid-js@1.2.62
+
 ## 7.1.39
 
 ### Patch Changes
