@@ -1,5 +1,16 @@
 # @ctx-core/ui-solid
 
+## 8.0.0
+
+### Major Changes
+
+- - export \* from '@ctx-core/solid-js'
+
+    - ctx\_\_Context
+    - ctx**Context**use
+    - signal\__toggle_
+    - params**ctx**memo\_
+
 ## 7.2.3
 
 ### Patch Changes

@@ -1,4 +1,3 @@
-export * from '@ctx-core/solid-js'
 export * from './GlobalStyle'
 export * from './Matcha'
 export * from './minifycss'
