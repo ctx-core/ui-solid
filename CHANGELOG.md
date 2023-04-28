@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 7.2.3
+
+### Patch Changes
+
+- Singleton\_: fix: import { ctx\_\_Context\_\_use } from '@ctx-core/solid-js'
+
 ## 7.2.2
 
 ### Patch Changes

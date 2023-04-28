@@ -1,6 +1,6 @@
 import { be_ } from '@ctx-core/object'
+import { ctx__Context__use } from '@ctx-core/solid-js'
 import { createSignal, onCleanup, Show } from 'solid-js'
-import { ctx__Context__use } from '../ctx__Context/index.js'
 /** @typedef {import('@ctx-core/object').Be}Be */
 /** @typedef {import('@ctx-core/solid-js').signal_T}signal_T */
 /** @typedef {import('solid-js').Component}Component */
