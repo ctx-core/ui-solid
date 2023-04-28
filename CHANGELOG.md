@@ -1,5 +1,16 @@
 # @ctx-core/ui-solid
 
+## 7.2.0
+
+### Minor Changes
+
+- export \_ from '@ctx-core/solid-js'
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/solid-js@1.3.0
+
 ## 7.1.41
 
 ### Patch Changes
