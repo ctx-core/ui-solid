@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 8.0.1
+
+### Patch Changes
+
+- @ctx-core/solid-js: ^1.3.1 -> ^1.3.2
+
 ## 8.0.0
 
 ### Major Changes
