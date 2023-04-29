@@ -1,5 +1,15 @@
 # @ctx-core/ui-solid
 
+## 8.1.0
+
+### Minor Changes
+
+- - peerDependencies:
+
+    ∋ @ctx-core/object
+    ∋ @ctx-core/solid-js
+    ∋ solid-js
+
 ## 8.0.1
 
 ### Patch Changes
