@@ -1,5 +1,12 @@
 # @ctx-core/ui-solid
 
+## 14.0.14
+
+### Patch Changes
+
+- @ctx-core/solid-js: ^1.3.18 -> ^1.3.19
+- @ctx-core/env: ^17.2.118 -> ^17.2.119
+
 ## 14.0.13
 
 ### Patch Changes
