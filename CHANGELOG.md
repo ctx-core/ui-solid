@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 14.0.22
+
+### Patch Changes
+
+- @solidjs/meta: ^0.28.5 -> ^0.28.6
+
 ## 14.0.21
 
 ### Patch Changes
