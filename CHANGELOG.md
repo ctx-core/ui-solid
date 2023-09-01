@@ -1,5 +1,12 @@
 # @ctx-core/ui-solid
 
+## 15.1.0
+
+### Minor Changes
+
+- - Singleton**ctx**Context,Singleton**ctx**Context\_\_use
+- Singleton*: arguments: proto_key_a\_\_signal*: ∋ Singleton**ctx**Context**use() || ctx**Context\_\_use()
+
 ## 15.0.8
 
 ### Patch Changes

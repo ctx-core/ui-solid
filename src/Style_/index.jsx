@@ -1,7 +1,7 @@
 import { import_meta_env_ } from '@ctx-core/env'
 import { GlobalStyle } from '../GlobalStyle/index.jsx'
 import { minifycss } from '../minifycss/index.js'
-import { Singleton_ } from '../Singleton_/index.jsx'
+import { Singleton_ } from '../Singleton/index.jsx'
 /** @typedef {import('solid-js').VoidProps}VoidProps */
 /**
  * @param {($p:VoidProps<{ label?:string }>)=>string}css_

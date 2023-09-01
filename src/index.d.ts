@@ -1,5 +1,5 @@
 export * from './GlobalStyle'
 export * from './Matcha'
 export * from './minifycss'
-export * from './Singleton_'
+export * from './Singleton'
 export * from './Style_'

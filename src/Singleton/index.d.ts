@@ -1,6 +1,6 @@
-import type { Be } from '@ctx-core/object'
+import type { Be, Ctx } from '@ctx-core/object'
 import type { signal_T } from '@ctx-core/solid-js'
-import type { Component, JSX, ParentProps } from 'solid-js'
+import type { Component, Context, JSX, ParentProps } from 'solid-js'
 export declare function Singleton_<
 	Props_T extends ParentProps<{ label?:string }> = ParentProps<{ label?:string }>
 >(
@@ -16,3 +16,5 @@ export interface Singleton_props_T<Key> {
 	proto_key_a__signal:signal_T<Key[]>
 	label?:string
 }
+export declare const Singleton__ctx__Context:Context<Ctx>
+export declare function Singleton__ctx__Context__use():Ctx
