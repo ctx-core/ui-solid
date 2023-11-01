@@ -1,5 +1,14 @@
 # @ctx-core/ui-solid
 
+## 17.0.12
+
+### Patch Changes
+
+- @ctx-core/object: ^28.2.1 -> ^28.2.2
+- Updated dependencies
+  - @ctx-core/env@17.3.15
+  - @ctx-core/solid-js@1.4.22
+
 ## 17.0.11
 
 ### Patch Changes
