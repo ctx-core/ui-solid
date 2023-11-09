@@ -1,5 +1,12 @@
 # @ctx-core/ui-solid
 
+## 19.0.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/object@29.1.0
+
 ## 18.0.1
 
 ### Patch Changes
