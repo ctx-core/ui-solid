@@ -1,21 +1,15 @@
 {
 	"compileOnSave": true,
 	"compilerOptions": {
-    "jsxImportSource": "solid-js",
-    "jsx": "preserve",
-		"allowJs": true,
-		"lib": [
-			"dom",
-			"ESNext",
-			"webworker"
-		],
-		"module": "esnext",
-		"moduleResolution": "node",
-		"resolveJsonModule": true,
-		"rootDir": "src",
-		"declaration": true,
-		"declarationDir": "src"
+		"module": "ESNext",
+		"moduleResolution": "nodenext",
+		"target": "ESNext",
+		"strict": true,
+		"jsxImportSource": "solid-js",
+		"jsx": "preserve"
 	},
-  "include": ["src"],
-	"exclude": []
+	"exclude": [
+		"node_modules"
+	],
+	"references": []
 }

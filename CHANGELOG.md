@@ -1,5 +1,26 @@
 # @ctx-core/ui-solid
 
+## 21.0.0
+
+### Minor Changes
+
+- fix:types package.json exports
+- tsconfig:
+
+      "module": "ESNext"
+      "moduleResolution": "nodenext"
+      "target": "ESNext"
+
+### Patch Changes
+
+- package.json: - "svelte": "./src/index.js"
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/env@17.4.0
+  - @ctx-core/object@30.1.0
+  - @ctx-core/solid-js@1.5.0
+
 ## 20.0.0
 
 ### Patch Changes
