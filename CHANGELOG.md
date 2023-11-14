@@ -1,5 +1,15 @@
 # @ctx-core/ui-solid
 
+## 21.0.2
+
+### Patch Changes
+
+- fix: missing tsconfig.json
+- Updated dependencies
+  - @ctx-core/env@17.4.2
+  - @ctx-core/object@30.1.2
+  - @ctx-core/solid-js@1.5.2
+
 ## 21.0.1
 
 ### Patch Changes
