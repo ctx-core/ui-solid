@@ -1,6 +1,6 @@
 import { createMemo } from 'solid-js'
-/** @typedef {import('solid-js').JSX}JSX */
-/** @typedef {import('solid-js').ParentProps}ParentProps */
+/** @typedef {import('solid-js').JSX} */
+/** @typedef {import('solid-js').ParentProps} */
 /**
  * @param {ParentProps<{ whenthen: [any, ()=>JSX.Element] }[]>}$p
  * @returns {JSX.Element}

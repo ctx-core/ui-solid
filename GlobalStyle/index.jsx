@@ -1,7 +1,7 @@
 import { createEffect, createMemo, createSignal, Show, useContext } from 'solid-js'
 import { MetaContext, Style } from '@solidjs/meta'
-/** @typedef {import('solid-js').ParentProps}ParentProps */
-/** @typedef {import('./index.d.ts').Style_props_T}Style_props_T */
+/** @typedef {import('solid-js').ParentProps} */
+/** @typedef {import('./index.d.ts').Style_props_T} */
 /**
  * @param {ParentProps<Style_props_T>}$p
  * @returns {JSX.Element}

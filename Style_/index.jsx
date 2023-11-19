@@ -2,7 +2,7 @@ import { import_meta_env_ } from '@ctx-core/env'
 import { GlobalStyle } from '../GlobalStyle/index.jsx'
 import { minifycss } from '../minifycss'
 import { Singleton_ } from '../Singleton/index.jsx'
-/** @typedef {import('solid-js').VoidProps}VoidProps */
+/** @typedef {import('solid-js').VoidProps} */
 /**
  * @param {($p:VoidProps<{ label?:string }>)=>string}css_
  * @returns {Component<VoidProps<{label?: string}>>}
