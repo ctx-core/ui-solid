@@ -1,5 +1,16 @@
 # @ctx-core/ui-solid
 
+## 21.0.24
+
+### Patch Changes
+
+- tsx: ^4.1.4 -> ^4.2.0
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/object@31.1.3
+  - @ctx-core/env@17.4.25
+  - @ctx-core/solid-js@1.5.23
+
 ## 21.0.23
 
 ### Patch Changes
