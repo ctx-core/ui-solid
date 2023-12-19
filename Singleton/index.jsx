@@ -1,13 +1,14 @@
-import { be_ } from '@ctx-core/object'
+/// <reference types="ctx-core" />
+/// <reference types="./index.d.ts" />
 import { ctx__Context__use } from '@ctx-core/solid-js'
+import { be_ } from 'ctx-core/be'
 import { createContext, createSignal, onCleanup, Show, useContext } from 'solid-js'
-/** @typedef {import('@ctx-core/object').Be} */
-/** @typedef {import('@ctx-core/object').Ctx} */
+/** @typedef {Be} */
+/** @typedef {Ctx} */
 /** @typedef {import('@ctx-core/solid-js').signal_T} */
 /** @typedef {import('solid-js').Component} */
 /** @typedef {import('solid-js').Context} */
 /** @typedef {import('solid-js').ParentProps} */
-/** @typedef {import('./index.d.ts').Singleton_props_T} */
 /**
  * @param {Component<{ label?:string }>}C
  * @param {Be<signal_T<any>>}[proto_key_a__signal_]
