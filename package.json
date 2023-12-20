@@ -24,7 +24,7 @@
 		"./Matcha",
 		"./minifycss",
 		"./Singleton",
-		"./Style_"
+      "Style"
 	],
 	"main": "index.jsx",
 	"module": "index.jsx",
@@ -39,7 +39,6 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/env": "^17.4.61",
 		"@ctx-core/solid-js": "^1.5.60",
 		"@solidjs/meta": "^0.29.3",
 		"ctx-core": "^5.1.0",
