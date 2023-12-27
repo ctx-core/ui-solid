@@ -34,9 +34,9 @@
 		"clean": ":",
 		"exec": "$@",
 		"prepublishOnly": "pnpm test",
-		"test": "pnpm test-unit",
-		"test-unit": "tsx node_modules/uvu/bin.js . '\\.test\\.(ts|js)$'",
-		"test-unit-coverage": "c8 pnpm test-unit"
+		"test": "pnpm test:unit",
+		"test:unit": "tsx node_modules/uvu/bin.js . '\\.test\\.(ts|js)$'",
+		"test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
 		"@ctx-core/solid-js": "^1.5.69",
