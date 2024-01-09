@@ -1,5 +1,15 @@
 # @ctx-core/ui-solid
 
+## 21.0.86
+
+### Patch Changes
+
+- solid-js: ^1.8.8 -> ^1.8.9
+- ctx-core: ^5.15.0 -> ^5.16.0
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/solid-js@1.5.81
+
 ## 21.0.85
 
 ### Patch Changes
