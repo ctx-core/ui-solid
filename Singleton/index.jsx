@@ -4,7 +4,7 @@ import { ctx__Context__use } from '@ctx-core/solid-js'
 import { be_ } from 'ctx-core/be'
 import { createContext, createSignal, onCleanup, Show, useContext } from 'solid-js'
 /** @typedef {Be} */
-/** @typedef {Ctx} */
+/** @typedef {ctx_T} */
 /** @typedef {import('@ctx-core/solid-js').signal_T} */
 /** @typedef {import('solid-js').Component} */
 /** @typedef {import('solid-js').Context} */
@@ -58,10 +58,10 @@ export function Singleton($p) {
 	})
 	return <Show when={proto_key_a_()[0] === key}>{$p.children}</Show>
 }
-/** @type {Context<Ctx>} */
+/** @type {Context<ctx_T>} */
 export const Singleton__ctx__Context = createContext()
 /**
- * @returns {Ctx}
+ * @returns {ctx_T}
  */
 export function Singleton__ctx__Context__use() {
 	return useContext(Singleton__ctx__Context)
