@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/ui-solid",
-	"version": "21.0.169",
+	"version": "21.0.170",
 	"description": "ctx-core Solidjs components",
 	"keywords": [
 		"ctx-core"
@@ -14,7 +14,11 @@
 		"url": "https://github.com/ctx-core/ui-solid.git"
 	},
 	"license": "Apache-2.0",
-	"author": "Brian Takita",
+	"author": {
+		"name": "Brian Takita",
+		"url": "https://briantakita.me",
+		"email": "info+ctx-core-ui-solid@briantakita.me"
+	},
 	"type": "module",
 	"files": [
 		"*.d.ts",
@@ -39,13 +43,13 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"@ctx-core/solid-js": "^1.5.164",
+		"@ctx-core/solid-js": "^1.5.165",
 		"@solidjs/meta": "^0.29.3",
-		"ctx-core": "^6.6.0",
+		"ctx-core": "^6.6.1",
 		"solid-js": "^1.8.15"
 	},
 	"peerDependencies": {
-		"@ctx-core/solid-js": "^1.5.164",
+		"@ctx-core/solid-js": "^1.5.165",
 		"solid-js": "^1.8.15"
 	},
 	"devDependencies": {
