@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/ui-solid",
-	"version": "21.0.175",
+	"version": "21.0.176",
 	"description": "ctx-core Solidjs components",
 	"keywords": [
 		"ctx-core"
@@ -43,13 +43,13 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"@ctx-core/solid-js": "^1.5.170",
+		"@ctx-core/solid-js": "^1.5.171",
 		"@solidjs/meta": "^0.29.3",
-		"ctx-core": "^6.8.1",
+		"ctx-core": "^6.8.2",
 		"solid-js": "^1.8.16"
 	},
 	"peerDependencies": {
-		"@ctx-core/solid-js": "^1.5.170",
+		"@ctx-core/solid-js": "^1.5.171",
 		"solid-js": "^1.8.16"
 	},
 	"devDependencies": {
