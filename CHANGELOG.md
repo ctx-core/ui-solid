@@ -1,5 +1,11 @@
 # @ctx-core/ui-solid
 
+## 21.0.201
+
+### Patch Changes
+
+- @ctx-core/solid-js: ^1.5.194 -> ^1.5.195
+
 ## 21.0.200
 
 ### Patch Changes
