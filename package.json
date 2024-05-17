@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/ui-solid",
-	"version": "21.0.199",
+	"version": "21.0.200",
 	"description": "ctx-core Solidjs components",
 	"keywords": [
 		"ctx-core"
@@ -44,8 +44,8 @@
 	},
 	"dependencies": {
 		"@ctx-core/solid-js": "^1.5.194",
-		"@solidjs/meta": "^0.29.3",
-		"ctx-core": "^7.2.9",
+		"@solidjs/meta": "^0.29.4",
+		"ctx-core": "^7.2.10",
 		"solid-js": "^1.8.17"
 	},
 	"peerDependencies": {
@@ -54,7 +54,7 @@
 	},
 	"devDependencies": {
 		"c8": "^9.1.0",
-		"tsx": "^4.10.2",
+		"tsx": "^4.10.4",
 		"typescript": "next",
 		"uvu": "^0.5.6"
 	},
