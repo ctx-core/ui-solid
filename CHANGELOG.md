@@ -1,5 +1,33 @@
 # @ctx-core/ui-solid
 
+## 21.0.224
+
+### Patch Changes
+
+- c8: ^10.1.3 -> ^11.0.0
+- tsx: ^4.20.6 -> ^4.21.0
+- solid-js: ^1.9.10 -> ^1.9.11
+- solid-js: ^1.8.22 -> ^1.9.11
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/solid-js@1.5.218
+  - ctx-core@7.2.33
+
 ## 21.0.223
 
 ### Patch Changes
@@ -2651,7 +2679,6 @@
 ### Major Changes
 
 - - export \* from '@ctx-core/solid-js'
-
     - ctx\_\_Context
     - ctx**Context**use
     - signal\__toggle_
