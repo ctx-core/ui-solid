@@ -1,5 +1,14 @@
 # @ctx-core/ui-solid
 
+## 21.0.225
+
+### Patch Changes
+
+- chore: migrate scripts from pnpm to bun
+- Updated dependencies
+  - ctx-core@7.2.34
+  - @ctx-core/solid-js@1.5.219
+
 ## 21.0.224
 
 ### Patch Changes
